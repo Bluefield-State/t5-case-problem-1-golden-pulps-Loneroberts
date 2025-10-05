@@ -19,14 +19,22 @@
 
 /* Hidden Objects */
 
-
+nav,
+footer,
+article {
+   display: none;
+}
 
 
 
 
 /* Comic Book Sheet Styles */
 
-
+section#sheet {
+   width: 6in;
+   margin: 0 auto;             
+   page-break-after: always;
+}
 
 
 
